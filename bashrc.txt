@@ -1,0 +1,117 @@
+[[ $- == *i* ]] && source "$HOME/.local/share/blesh/ble.sh" --attach=none
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias chrome='/usr/bin/google-chrome --no-sandbox'
+alias ttt='chmod 700 /root/bin/*.sh'
+alias RS='rsync -avz --delete -e ssh'
+alias LS='rsync -a --delete'
+alias fwcmd='firewall-cmd --permanent'
+alias fwreload='firewall-cmd --reload'
+alias fwlist='firewall-cmd --list-all'
+alias vi='vim'
+
+export EDITOR=vim
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+#
+# Mail Server Alias
+#
+alias MAIL='cd /etc/mail'
+alias sendmail.cf='vi /etc/mail/sendmail.cf'
+alias maillog='tail -f /var/log/maillog'
+#
+# DNS Server Alias
+#
+alias named.conf='vi /etc/named.conf'
+alias named.rfc1912.zones='vi /etc/named.rfc1912.zones' 
+alias DNS='cd /var/named'
+alias dnslog='tail -f /var/log/messages'
+#
+# Samba Server Alias
+#
+alias smb.conf='vi /etc/samba/smb.conf'
+alias SMB='cd /etc/samba'
+alias smblog='tail -f /var/log/samba/log.smbd'
+alias nmblog='tail -f /var/log/samba/log.nmbd'#
+# Sfecific configuration
+#
+export PS1='\[\e[31;1m\][\u@\h\[\e[33;1m\] \w]\$ \[\e[m\]'
+sed -i '$a[[ ${BLE_VERSION-} ]] && ble-attach' $HOME/.bashrc
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
+[[ ${BLE_VERSION-} ]] && ble-attach
